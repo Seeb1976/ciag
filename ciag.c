@@ -7,6 +7,12 @@ int main(){
     double wartosc_wymierna;
 
     char ciag_znakow[256];
+    char opcja='x';
+    char *Napis="opis programu";
+
+    printf("Wybrano opcję %c: %31, opcja, Napis;");
+        //wybrano opcję x : opis programu
+
     printf("Podaj znak: ");
     scanf("%c", &znak);
     printf("Podaj ciąg znakowy: ");
